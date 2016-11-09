@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19040A2B0E60F70CACE6B305 /* Pods_OCRPOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF9716D4D493AFB0AB5178C /* Pods_OCRPOCTests.framework */; };
+		1D98EA20753DA552CDDC5A28 /* Pods_OCRPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4C75261BE3FD28163B114C /* Pods_OCRPOC.framework */; };
+		B20C3189EA9EE56BAA9871D5 /* Pods_OCRPOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8DA2365CB6E54A37BFA056 /* Pods_OCRPOCUITests.framework */; };
 		CC9740F21DD2F33600751936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F11DD2F33600751936 /* AppDelegate.swift */; };
-		CC9740F41DD2F33600751936 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F31DD2F33600751936 /* MasterViewController.swift */; };
-		CC9740F61DD2F33600751936 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F51DD2F33600751936 /* DetailViewController.swift */; };
 		CC9740F91DD2F33600751936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9740F71DD2F33600751936 /* Main.storyboard */; };
 		CC9740FB1DD2F33700751936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9740FA1DD2F33700751936 /* Assets.xcassets */; };
 		CC9740FE1DD2F33700751936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9740FC1DD2F33700751936 /* LaunchScreen.storyboard */; };
 		CC9741091DD2F33700751936 /* OCRPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9741081DD2F33700751936 /* OCRPOCTests.swift */; };
 		CC9741141DD2F33700751936 /* OCRPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9741131DD2F33700751936 /* OCRPOCUITests.swift */; };
+		CC9741221DD3009000751936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9741211DD3009000751936 /* ViewController.swift */; };
+		CC9741241DD32A6F00751936 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = CC9741231DD32A6E00751936 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E3F50E5F33CD39263F782B /* Pods-OCRPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOC/Pods-OCRPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		24C05D422CC1D9F8BFF9AABA /* Pods-OCRPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOCTests/Pods-OCRPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		63024DFF6FD748D59D17C52B /* Pods-OCRPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOCTests/Pods-OCRPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF9716D4D493AFB0AB5178C /* Pods_OCRPOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRPOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8413C833252EDF9C91D01AA3 /* Pods-OCRPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOC/Pods-OCRPOC.release.xcconfig"; sourceTree = "<group>"; };
+		85E74EA60979A71E4FA30EED /* Pods-OCRPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOCUITests/Pods-OCRPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B4C75261BE3FD28163B114C /* Pods_OCRPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9740EE1DD2F33600751936 /* OCRPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9740F11DD2F33600751936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC9740F31DD2F33600751936 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		CC9740F51DD2F33600751936 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CC9740F81DD2F33600751936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC9740FA1DD2F33700751936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9740FD1DD2F33700751936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		CC97410F1DD2F33700751936 /* OCRPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9741131DD2F33700751936 /* OCRPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRPOCUITests.swift; sourceTree = "<group>"; };
 		CC9741151DD2F33700751936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9741211DD3009000751936 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC9741231DD32A6E00751936 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		D10A449B864B11AFD798B457 /* Pods-OCRPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRPOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCRPOCUITests/Pods-OCRPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8DA2365CB6E54A37BFA056 /* Pods_OCRPOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCRPOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D98EA20753DA552CDDC5A28 /* Pods_OCRPOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19040A2B0E60F70CACE6B305 /* Pods_OCRPOCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20C3189EA9EE56BAA9871D5 /* Pods_OCRPOCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69435CB6E2E48D67B30C61F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C75261BE3FD28163B114C /* Pods_OCRPOC.framework */,
+				7BF9716D4D493AFB0AB5178C /* Pods_OCRPOCTests.framework */,
+				ED8DA2365CB6E54A37BFA056 /* Pods_OCRPOCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71ECD2E3EBB6D01030B6A7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01E3F50E5F33CD39263F782B /* Pods-OCRPOC.debug.xcconfig */,
+				8413C833252EDF9C91D01AA3 /* Pods-OCRPOC.release.xcconfig */,
+				63024DFF6FD748D59D17C52B /* Pods-OCRPOCTests.debug.xcconfig */,
+				24C05D422CC1D9F8BFF9AABA /* Pods-OCRPOCTests.release.xcconfig */,
+				D10A449B864B11AFD798B457 /* Pods-OCRPOCUITests.debug.xcconfig */,
+				85E74EA60979A71E4FA30EED /* Pods-OCRPOCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC9740E51DD2F33600751936 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				CC9741071DD2F33700751936 /* OCRPOCTests */,
 				CC9741121DD2F33700751936 /* OCRPOCUITests */,
 				CC9740EF1DD2F33600751936 /* Products */,
+				A71ECD2E3EBB6D01030B6A7C /* Pods */,
+				69435CB6E2E48D67B30C61F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				CC9740F11DD2F33600751936 /* AppDelegate.swift */,
-				CC9740F31DD2F33600751936 /* MasterViewController.swift */,
-				CC9740F51DD2F33600751936 /* DetailViewController.swift */,
 				CC9740F71DD2F33600751936 /* Main.storyboard */,
 				CC9740FA1DD2F33700751936 /* Assets.xcassets */,
+				CC9741231DD32A6E00751936 /* tessdata */,
 				CC9740FC1DD2F33700751936 /* LaunchScreen.storyboard */,
 				CC9740FF1DD2F33700751936 /* Info.plist */,
+				CC9741211DD3009000751936 /* ViewController.swift */,
 			);
 			path = OCRPOC;
 			sourceTree = "<group>";
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9741181DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOC" */;
 			buildPhases = (
+				F2EB36A35AAB0FFA2087BFFA /* [CP] Check Pods Manifest.lock */,
 				CC9740EA1DD2F33600751936 /* Sources */,
 				CC9740EB1DD2F33600751936 /* Frameworks */,
 				CC9740EC1DD2F33600751936 /* Resources */,
+				F934932A9770BA4EC288504F /* [CP] Embed Pods Frameworks */,
+				7A190069F8B48F5887AE6E2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC97411B1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCTests" */;
 			buildPhases = (
+				A2AF0617C7EE5E0712E18D39 /* [CP] Check Pods Manifest.lock */,
 				CC9741001DD2F33700751936 /* Sources */,
 				CC9741011DD2F33700751936 /* Frameworks */,
 				CC9741021DD2F33700751936 /* Resources */,
+				AEA175FE4222336690E629FD /* [CP] Embed Pods Frameworks */,
+				83F2141F0CB357DE588B936D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC97411E1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCUITests" */;
 			buildPhases = (
+				735126E15D5D0FB3C07CD0CE /* [CP] Check Pods Manifest.lock */,
 				CC97410B1DD2F33700751936 /* Sources */,
 				CC97410C1DD2F33700751936 /* Frameworks */,
 				CC97410D1DD2F33700751936 /* Resources */,
+				67FFFBFA86EB9680D45A0D37 /* [CP] Embed Pods Frameworks */,
+				A4D89162D05E3AF35F1847C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9740FE1DD2F33700751936 /* LaunchScreen.storyboard in Resources */,
+				CC9741241DD32A6F00751936 /* tessdata in Resources */,
 				CC9740FB1DD2F33700751936 /* Assets.xcassets in Resources */,
 				CC9740F91DD2F33600751936 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +304,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67FFFBFA86EB9680D45A0D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOCUITests/Pods-OCRPOCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		735126E15D5D0FB3C07CD0CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A190069F8B48F5887AE6E2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOC/Pods-OCRPOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83F2141F0CB357DE588B936D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOCTests/Pods-OCRPOCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2AF0617C7EE5E0712E18D39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D89162D05E3AF35F1847C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOCUITests/Pods-OCRPOCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA175FE4222336690E629FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOCTests/Pods-OCRPOCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EB36A35AAB0FFA2087BFFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F934932A9770BA4EC288504F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCRPOC/Pods-OCRPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC9740EA1DD2F33600751936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9740F61DD2F33600751936 /* DetailViewController.swift in Sources */,
-				CC9740F41DD2F33600751936 /* MasterViewController.swift in Sources */,
+				CC9741221DD3009000751936 /* ViewController.swift in Sources */,
 				CC9740F21DD2F33600751936 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +524,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -383,6 +571,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -403,8 +592,10 @@
 		};
 		CC9741191DD2F33700751936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E3F50E5F33CD39263F782B /* Pods-OCRPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = OCRPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOC;
@@ -414,8 +605,10 @@
 		};
 		CC97411A1DD2F33700751936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8413C833252EDF9C91D01AA3 /* Pods-OCRPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = OCRPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOC;
@@ -425,6 +618,7 @@
 		};
 		CC97411C1DD2F33700751936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63024DFF6FD748D59D17C52B /* Pods-OCRPOCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCRPOCTests/Info.plist;
@@ -437,6 +631,7 @@
 		};
 		CC97411D1DD2F33700751936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C05D422CC1D9F8BFF9AABA /* Pods-OCRPOCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCRPOCTests/Info.plist;
@@ -449,6 +644,7 @@
 		};
 		CC97411F1DD2F33700751936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10A449B864B11AFD798B457 /* Pods-OCRPOCUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OCRPOCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +656,7 @@
 		};
 		CC9741201DD2F33700751936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E74EA60979A71E4FA30EED /* Pods-OCRPOCUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OCRPOCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +685,7 @@
 				CC97411A1DD2F33700751936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC97411B1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +694,7 @@
 				CC97411D1DD2F33700751936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC97411E1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +703,7 @@
 				CC9741201DD2F33700751936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
