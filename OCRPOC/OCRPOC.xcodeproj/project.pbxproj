@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC9740F21DD2F33600751936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F11DD2F33600751936 /* AppDelegate.swift */; };
+		CC9740F41DD2F33600751936 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F31DD2F33600751936 /* MasterViewController.swift */; };
+		CC9740F61DD2F33600751936 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9740F51DD2F33600751936 /* DetailViewController.swift */; };
+		CC9740F91DD2F33600751936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9740F71DD2F33600751936 /* Main.storyboard */; };
+		CC9740FB1DD2F33700751936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9740FA1DD2F33700751936 /* Assets.xcassets */; };
+		CC9740FE1DD2F33700751936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9740FC1DD2F33700751936 /* LaunchScreen.storyboard */; };
+		CC9741091DD2F33700751936 /* OCRPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9741081DD2F33700751936 /* OCRPOCTests.swift */; };
+		CC9741141DD2F33700751936 /* OCRPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9741131DD2F33700751936 /* OCRPOCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC9741051DD2F33700751936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9740E61DD2F33600751936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9740ED1DD2F33600751936;
+			remoteInfo = OCRPOC;
+		};
+		CC9741101DD2F33700751936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9740E61DD2F33600751936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9740ED1DD2F33600751936;
+			remoteInfo = OCRPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC9740EE1DD2F33600751936 /* OCRPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9740F11DD2F33600751936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC9740F31DD2F33600751936 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CC9740F51DD2F33600751936 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CC9740F81DD2F33600751936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9740FA1DD2F33700751936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9740FD1DD2F33700751936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC9740FF1DD2F33700751936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9741041DD2F33700751936 /* OCRPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9741081DD2F33700751936 /* OCRPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRPOCTests.swift; sourceTree = "<group>"; };
+		CC97410A1DD2F33700751936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC97410F1DD2F33700751936 /* OCRPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9741131DD2F33700751936 /* OCRPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRPOCUITests.swift; sourceTree = "<group>"; };
+		CC9741151DD2F33700751936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9740EB1DD2F33600751936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9741011DD2F33700751936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97410C1DD2F33700751936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9740E51DD2F33600751936 = {
+			isa = PBXGroup;
+			children = (
+				CC9740F01DD2F33600751936 /* OCRPOC */,
+				CC9741071DD2F33700751936 /* OCRPOCTests */,
+				CC9741121DD2F33700751936 /* OCRPOCUITests */,
+				CC9740EF1DD2F33600751936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9740EF1DD2F33600751936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9740EE1DD2F33600751936 /* OCRPOC.app */,
+				CC9741041DD2F33700751936 /* OCRPOCTests.xctest */,
+				CC97410F1DD2F33700751936 /* OCRPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9740F01DD2F33600751936 /* OCRPOC */ = {
+			isa = PBXGroup;
+			children = (
+				CC9740F11DD2F33600751936 /* AppDelegate.swift */,
+				CC9740F31DD2F33600751936 /* MasterViewController.swift */,
+				CC9740F51DD2F33600751936 /* DetailViewController.swift */,
+				CC9740F71DD2F33600751936 /* Main.storyboard */,
+				CC9740FA1DD2F33700751936 /* Assets.xcassets */,
+				CC9740FC1DD2F33700751936 /* LaunchScreen.storyboard */,
+				CC9740FF1DD2F33700751936 /* Info.plist */,
+			);
+			path = OCRPOC;
+			sourceTree = "<group>";
+		};
+		CC9741071DD2F33700751936 /* OCRPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9741081DD2F33700751936 /* OCRPOCTests.swift */,
+				CC97410A1DD2F33700751936 /* Info.plist */,
+			);
+			path = OCRPOCTests;
+			sourceTree = "<group>";
+		};
+		CC9741121DD2F33700751936 /* OCRPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9741131DD2F33700751936 /* OCRPOCUITests.swift */,
+				CC9741151DD2F33700751936 /* Info.plist */,
+			);
+			path = OCRPOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9740ED1DD2F33600751936 /* OCRPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9741181DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOC" */;
+			buildPhases = (
+				CC9740EA1DD2F33600751936 /* Sources */,
+				CC9740EB1DD2F33600751936 /* Frameworks */,
+				CC9740EC1DD2F33600751936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRPOC;
+			productName = OCRPOC;
+			productReference = CC9740EE1DD2F33600751936 /* OCRPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9741031DD2F33700751936 /* OCRPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC97411B1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCTests" */;
+			buildPhases = (
+				CC9741001DD2F33700751936 /* Sources */,
+				CC9741011DD2F33700751936 /* Frameworks */,
+				CC9741021DD2F33700751936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9741061DD2F33700751936 /* PBXTargetDependency */,
+			);
+			name = OCRPOCTests;
+			productName = OCRPOCTests;
+			productReference = CC9741041DD2F33700751936 /* OCRPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC97410E1DD2F33700751936 /* OCRPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC97411E1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCUITests" */;
+			buildPhases = (
+				CC97410B1DD2F33700751936 /* Sources */,
+				CC97410C1DD2F33700751936 /* Frameworks */,
+				CC97410D1DD2F33700751936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9741111DD2F33700751936 /* PBXTargetDependency */,
+			);
+			name = OCRPOCUITests;
+			productName = OCRPOCUITests;
+			productReference = CC97410F1DD2F33700751936 /* OCRPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9740E61DD2F33600751936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Talenserv Mac";
+				TargetAttributes = {
+					CC9740ED1DD2F33600751936 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CC9741031DD2F33700751936 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC9740ED1DD2F33600751936;
+					};
+					CC97410E1DD2F33700751936 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC9740ED1DD2F33600751936;
+					};
+				};
+			};
+			buildConfigurationList = CC9740E91DD2F33600751936 /* Build configuration list for PBXProject "OCRPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9740E51DD2F33600751936;
+			productRefGroup = CC9740EF1DD2F33600751936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9740ED1DD2F33600751936 /* OCRPOC */,
+				CC9741031DD2F33700751936 /* OCRPOCTests */,
+				CC97410E1DD2F33700751936 /* OCRPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9740EC1DD2F33600751936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9740FE1DD2F33700751936 /* LaunchScreen.storyboard in Resources */,
+				CC9740FB1DD2F33700751936 /* Assets.xcassets in Resources */,
+				CC9740F91DD2F33600751936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9741021DD2F33700751936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97410D1DD2F33700751936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9740EA1DD2F33600751936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9740F61DD2F33600751936 /* DetailViewController.swift in Sources */,
+				CC9740F41DD2F33600751936 /* MasterViewController.swift in Sources */,
+				CC9740F21DD2F33600751936 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9741001DD2F33700751936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9741091DD2F33700751936 /* OCRPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC97410B1DD2F33700751936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9741141DD2F33700751936 /* OCRPOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC9741061DD2F33700751936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9740ED1DD2F33600751936 /* OCRPOC */;
+			targetProxy = CC9741051DD2F33700751936 /* PBXContainerItemProxy */;
+		};
+		CC9741111DD2F33700751936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9740ED1DD2F33600751936 /* OCRPOC */;
+			targetProxy = CC9741101DD2F33700751936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC9740F71DD2F33600751936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9740F81DD2F33600751936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC9740FC1DD2F33700751936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9740FD1DD2F33700751936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC9741161DD2F33700751936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC9741171DD2F33700751936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9741191DD2F33700751936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCRPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC97411A1DD2F33700751936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCRPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC97411C1DD2F33700751936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCRPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRPOC.app/OCRPOC";
+			};
+			name = Debug;
+		};
+		CC97411D1DD2F33700751936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCRPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRPOC.app/OCRPOC";
+			};
+			name = Release;
+		};
+		CC97411F1DD2F33700751936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCRPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCRPOC;
+			};
+			name = Debug;
+		};
+		CC9741201DD2F33700751936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCRPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talentserv.OCRPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCRPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9740E91DD2F33600751936 /* Build configuration list for PBXProject "OCRPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9741161DD2F33700751936 /* Debug */,
+				CC9741171DD2F33700751936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9741181DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9741191DD2F33700751936 /* Debug */,
+				CC97411A1DD2F33700751936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC97411B1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97411C1DD2F33700751936 /* Debug */,
+				CC97411D1DD2F33700751936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC97411E1DD2F33700751936 /* Build configuration list for PBXNativeTarget "OCRPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC97411F1DD2F33700751936 /* Debug */,
+				CC9741201DD2F33700751936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9740E61DD2F33600751936 /* Project object */;
+}
