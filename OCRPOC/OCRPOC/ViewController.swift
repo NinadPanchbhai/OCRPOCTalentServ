@@ -10,47 +10,61 @@ import UIKit
 import TesseractOCR
 
 class ViewController: UIViewController , G8TesseractDelegate {
-
+    
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var updateProgressPercentageLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        textView.text = recognizeTextFromImage(UIImage (named: "Lenore")!)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    func activityIndicatorStartAnimating()
+    {
+        activityIndicator.startAnimating()
+    }
+    
+    func activityIndicatorStopAnimating() {
+        activityIndicator.stopAnimating()
+    }
+    
+    func recognizeTextFromImage(_ image : UIImage) -> String {
         
         if let tesseract = G8Tesseract(language: "eng"){
             tesseract.delegate = self
-            tesseract.image = UIImage (named: "Lenore")?.g8_blackAndWhite()
+            tesseract.image = image.g8_blackAndWhite()
             tesseract.recognize()
-            
-            textView.text = tesseract.recognizedText
-            
+            return tesseract.recognizedText
+        }
+        else
+        {
+            return "error"
         }
         
+    }
+    
+    func progressImageRecognition(for tesseract: G8Tesseract!) {
         
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    // MARK: - Tesseract delegate methods 
-    
-    func progressImageRecognitionForTesseract(tesseract: G8Tesseract!) {
         print("Image Recognition Progress :: \(tesseract.progress) %")
         
-        
-        
     }
     
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
